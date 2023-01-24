@@ -10,6 +10,7 @@ import sys
 argument_count = len(sys.argv)
 
 # this is a conditional statement, testing what is in our argument_count.
+
 if argument_count > 1:
     print("Too many args")
 else:
@@ -19,3 +20,6 @@ else:
 
 print('Goodbye from ' + sys.argv[0])  #this always prints cause it's not part of the conditional
 # square brackets are for lists
+
+if argument_count < 20:
+    print("Too many args")
